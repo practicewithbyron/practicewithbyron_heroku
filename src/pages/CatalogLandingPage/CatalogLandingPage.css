@@ -1,0 +1,44 @@
+.catalog-landing-page{
+    margin-top: 58px;
+
+}
+
+.catalog-landing-head-container{
+    padding: 25px 0;
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
+}
+
+.catalog-landing-title{
+    color: var(--light-text);
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.catalog-landing-subtitle{
+    color: var(--light-text);
+    font-weight: 600;
+}
+
+.catalog-landing-button{
+    font-family: 'Poppins', sans-serif;
+    color: var(--light-text);
+    background: #0060fb;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    margin: 40px auto 20px auto;
+}
+
+.catalog-landing-content-container{
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.catalog-landing-desc-container{
+    width: 60%
+}
+
+.catalog-landing-stats-container{
+    width: 40%
+}

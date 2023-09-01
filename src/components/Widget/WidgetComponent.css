@@ -1,0 +1,72 @@
+.widgetComponent {
+    width: 300px;
+    height: 325px;
+
+    background-color: var(--widget-grey);
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    transition: all 0.15s linear;
+}
+
+.widgetComponent:hover {
+    transform-origin: 0% 100%;
+    transform: rotate(-3deg);
+}
+
+.widget-image-container{
+    height: 50%;
+}
+
+.widget-text-container{
+    height: 50%;
+    width: fill;
+    padding-top: 20px !important;
+}
+
+.widgetImage {
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
+
+    border-top-left-radius: 8.5px;
+    border-top-right-radius: 8.5px;
+
+    width: fill;
+    height: fit-content;
+}
+
+.widgetDifficulty{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px 5px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.widgetDifficulty-beginner{
+    color: #38a169;
+    background-color: rgba(56,161,105,.1);
+}
+
+.widgetDifficulty-intermediate{
+    color: #0ea5e9;
+    background-color: rgba(14,165,233,.1);
+}
+
+.widgetDifficulty-advance{
+    color: #dc2626;
+    background-color: rgba(220,38,38,.1);
+}
+
+.widgetTitle {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.widgetDesc {
+    font-weight: 300;
+    margin: 2px;
+    text-align: left;
+}
